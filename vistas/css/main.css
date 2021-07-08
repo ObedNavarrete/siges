@@ -1,0 +1,111 @@
+.ocultar {
+    transition: all .5s ease-in-out;
+    opacity: 0;
+}
+ 
+.mostrar {
+    transition: all .5s ease-in-out;
+    opacity: 1;
+    height: auto;
+}
+
+.alert {
+    padding: .375rem .75rem;
+    display: none;
+}
+
+.ck-editor__editable {
+    min-height: 200px !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 70% !important;
+}
+
+
+th, td{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+
+td.child{
+    text-align: left;
+}
+
+@media (min-width:720px) {
+    td.child{
+        text-align: center;
+    }
+}
+
+label{
+    margin-top: 10px;
+}
+
+@media (min-width:720px) {
+    th, td{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+div.dataTables_paginate{
+    width: 100%;
+
+}
+
+ul.pagination{
+    padding: 5px;
+    margin: auto;
+}
+
+td{
+    padding: 5px!important;
+    vertical-align:baseline;
+}
+
+td.sorting_1::before{
+    margin-left: -25px;
+    margin-top: -8px;
+}
+
+div.modal-content{
+    margin-top: 40%;
+}
+
+@media (min-width:720px) {
+    div.modal-content{
+        margin-top: auto;
+    }
+}
+
+body.p-body-login{
+    background-color: #464646;
+    }   
+
+.login-logo h3{
+    color: #efefef;
+}
+
+.login-logo img{
+    width: 200px;
+}
+
+/* .card-body .login-card-body{
+    border-radius: 10px!important;
+} */
+
+input.input-formulario::placeholder{
+    color: #cecfc9;
+}
+
+div.login-box{
+    margin-top: 40%;
+}
+
+@media (min-width:768px){
+    div.login-box{
+        margin-top: 10%;
+    }
+}
